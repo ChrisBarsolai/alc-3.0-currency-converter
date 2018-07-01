@@ -3,8 +3,7 @@ An implementation of the Andela Learning Community (ALC) #7DaysofCodeChallenge u
 
 Check this out on: [chrisbarsolai.github.io](https://chrisbarsolai.github.io/alc-3.0-currency-converter/)
 
-![screenshot](https://user-images.githubusercontent.com/14905480/42139939-bd7c265c-7d9f-11e8-815f-43b19b315381.png)
-
+![screenshot](https://user-images.githubusercontent.com/14905480/42139961-424ba0b0-7da0-11e8-8fe1-035fc1bb4ca1.png)
 
 
 ## Description
