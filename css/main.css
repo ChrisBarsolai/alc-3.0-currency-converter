@@ -1,0 +1,54 @@
+
+html {
+  min-height: 100%;
+}
+
+body {
+    background: white;
+}
+
+.whole-body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    padding: 30px;
+    background: #fff;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer { 
+	font-size: 1em; 
+	margin: 40px; 
+	color: #999; 
+}
+
+footer .content { display: inline; text-align: center;}
+
+footer a { margin-left: 2px; color: #777 }
+footer a:visited { color: #777 }
+footer a:hover { color: #408724 }
+
+.navbar-text {
+	padding-left: 35rem;
+	color: green;
+	text-transform: uppercase;
+	text-decoration: underline;
+	border-bottom: 
+}
+
+.text-message {
+	display:none;
+	margin : 0 auto;
+}

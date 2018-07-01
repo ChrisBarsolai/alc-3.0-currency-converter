@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href='css/bootstrap.css'/>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" href="img/icon.ico" type="image/x-icon" />
+  <title>ALC 3.0 Currency Converter</title>
+</head>
+<body>
+
+  <div class="whole-body">
+<!--       <p class="navbar-text" style="font-size:25px; color: #248782" align="center"><b>#7DaysOfChallenge</b></p>
+ -->     <img src="img/alc.png" alt="ALC logo" style="width:222px;height:100px;" align="center">
+
+        <p class="header-two">.</p>
+        <p class="header">Currency Converter</p>
+        <p align="center">Select currencies to be converted from and to</p>
+
+  
+  <main>
+    <div class="container">
+      <div class="row"><h3 class="text-error" id="error-message"></h3></div>
+      <div class="row"><h3 class="text-message" id="message"></h3></div>
+      <div class="row"><h3 class="text-success" id="success-message"></h3></div>
+      <div class="row justify-content-center align-items-center main">
+        <div class="col justify-content-center">
+          <div>
+            <div class="form-row justify-content-center">
+              <div class="form-group col-lg-4">
+                <select name="inputFromCountry" class="form-control" id="inputFromCountry">
+                  <option value=''>From</option>
+                </select>
+              </div>
+              <div class="form-group col-lg-4">
+                <select name="inputToCountry" class="form-control" id="inputToCountry">
+                  <option value=''>To</option>
+                </select>
+              </div>
+              <div class="form-group col-lg-4">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text" id="fromCurrencySymbol">Enter Amount</div>
+                    </div>
+                    <input
+                      min="0"
+                      value="0"
+                      name="inputFromAmount"
+                      type="number"
+                      class="form-control"
+                      id="inputFromAmount"
+                      placeholder="Amount in number">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div>
+            <div class="form-row justify-content-center">
+              
+              <div class="form-group col-lg-3">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text" id="toCurrencySymbol">Coversion</div>
+                  </div>       
+                  <input
+                    min="0"
+                    value="0"
+                    name="inputToAmount"
+                    type="number"
+                    class="form-control"
+                    id="inputToAmount"
+                    placeholder="Amount in number">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-row align-items-center justify-content-center m-3">
+            <div>
+              <!-- <button id="reset" name="reset" type="button" aria-label="Reset" class="btn btn-outline-light">
+                Start Over Again
+              </button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center align-items-center m-3" id='alert' style="display: none;">
+        <div class="alert alert-primary" role="alert">
+          <strong id='alert-message'></strong>
+          <div>
+            <button id='refresh' name="refresh" type="button" aria-label="Refresh" class="btn btn-outline-primary">
+              Refresh
+            </button>
+            <button id='dismiss' name="dismiss" type="button" aria-label="Dismiss" class="btn btn-outline-secondary">
+              Dismiss
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer align="center">
+      &copy; 2018 Barsolai
+      <div class="content">
+<!--         <a href="#" title="Privacy Policy">Privacy Policy</a>
+        <a href="#" title="Terms and Conditions">Terms and Conditions</a> -->
+        <p>Powered by:<a href="https://free.currencyconverterapi.com/">Currency Converter API</a></p>
+      </div>
+
+      <!-- ------ -->
+
+
+      <!-- ------ -->
+    </footer>
+ 
+  <script src="js/indexed-db.js"></script>
+  <script src="js/main.js"></script>
+
+</div>
+</body>
+</html>
